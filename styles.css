@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(images/background-gabigol.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2{
+    margin-top: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.container-header{
+    margin: auto;
+    text-align: center;
+}
+
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.wrapper-container{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2a2a2a;
+}
+
+.logo-flamengo-container{
+    width: 5%;
+}
+ .logo-flamengo-container img{
+    width: 100%;
+    transition: ease .5s all;
+}
+
+.navBar nav{
+    display: flex;
+    align-items: center;
+}
+.navBar ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: #fafafa;
+    display: inline-block;
+    background-color: transparent;
+    padding: 12px 16px; 
+    border-radius: 15px;
+    transition: ease .5s all;
+}
+
+.navBar a:hover{
+    background-color: rgb(209, 84, 84);
+}
+nav a.active{
+    background-color: rgb(209, 84, 84);
+}
+.navBar .logo-flamengo-container a:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    height: 700px;
+}
+
+.header-title h1, .header-title p{
+    background-color: rgb(0, 0, 0, .7);
+    padding: 16px;
+    color: #fafafa;
+    border-bottom: 3px solid rgb(209, 84, 84);
+    border-radius: 10px;
+    transition: ease .5s all;
+    margin-top: 0;
+}
+
+.header-title h1:hover, .header-title p:hover{
+    transform: scale(1.1);
+}
+
+.bg-gabigol img{
+    height: 800px;
+    width: 100%;
+}
+
+.section{
+    background-color: #fafafa;
+    text-align: center;
+}
+.section h2{
+    padding-top: 52px;
+}
+
+.section h2:after {
+    content: '';
+    display: block;
+    background-color: rgb(255, 0, 0);
+    margin: 5px auto 0 auto;
+    width: 50px;
+    height: 2px;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article p{
+    max-width: 420px;
+    text-align: center;
+}
+
+.container-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 20px 0;
+    gap: 20px;
+}
+
+.container-section h3{
+    transition:.5s;
+    cursor: pointer;
+}
+
+.icon-container{
+    background-color: #2a2a2a;
+    color: rgb(209, 84, 84);
+    border-radius: 30px;
+    width: fit-content;
+    transition: ease .5s all;
+}
+.icon-container:hover, .container-section h3:hover{
+    transform: scale(1.1);
+}
+
+.material-symbols-outlined{
+    font-size: 64px;
+    padding: 48px;
+}
+
+.a-icon-container{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-section2{
+    padding: 40px 0;
+    margin: 0 100px;
+}
+
+.container-section2 img{
+    transition: .5s;
+}
+
+.container-section2 img:hover{
+    transform: scale(1.1);
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    position: relative;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    width: 90%;
+    text-align: left;
+}
+
+.carousel-caption p{
+  padding: 20px;
+  margin: 0;
+  font-size: 32px;
+}
+
+.carousel-control-ant, .carousel-control-prox {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.carousel-control-ant {
+    left: 10px;
+}
+
+.carousel-control-prox {
+    right: 10px;
+}
+
+.container-section3{
+    margin-top: 52px;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.img-profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.img-profile img::after{
+    content: '';
+    display: block;
+    background-color: rgb(255, 0, 0);
+    margin: 5px auto 0 auto;
+    width: 50px;
+    height: 2px;
+}
+
+.container-footer{
+    margin: 120px 0 0;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid #2a2a2a;
+}
+
+
+.container-footer p{
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.nav-footer{
+    display: flex;
+    align-items: center;
+}
+.nav-footer ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-footer a{
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.nav-footer a:hover{
+    font-weight: bold;
+}
+
+.logo-fla-footer{
+    width: 100px;
+}
+
+.logo-fla-footer img {
+    width: 100%;
+    transition: ease .5s all;
+}
+
+.logo-fla-footer img:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
