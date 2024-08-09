@@ -1,0 +1,106 @@
+/* ESTILOS GERAIS */
+
+.bordinha h1 {
+    border-bottom: 1px solid rgb(209, 84, 84);
+}
+.bordinha h2 {
+    border-bottom: 1px solid rgb(209, 84, 84);
+}
+
+.titulo {
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+/* FIM ESTILOS GERAIS */
+
+/* Nav bar */
+
+.container-header{
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper-container{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2a2a2a;
+}
+
+.logo-flamengo-container{
+    width: 5%;
+}
+ .logo-flamengo-container img{
+    width: 100%;
+    transition: ease .5s all;
+}
+
+.navBar nav{
+    display: flex;
+    align-items: center;
+}
+.navBar ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: #fafafa;
+    display: inline-block;
+    background-color: transparent;
+    padding: 12px 16px; 
+    border-radius: 15px;
+    transition: ease .5s all;
+}
+
+.navBar a:hover{
+    background-color: rgb(209, 84, 84);
+}
+nav a.active{
+    background-color: rgb(209, 84, 84);
+}
+.navBar .logo-flamengo-container a:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+/* Fim nav bar */
+
+/* Como tudo começou */
+.foto-flamengo {
+    width: 99vw;
+    height: 67vh;
+    background-image: url(images/flamengo_tri_libertadores_Agencia-Brasil.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.comoTudoComecou span {
+    color: rgb(209, 84, 84);
+}
+
+.cTC-conteudo {
+    gap: 5%;
+}
+/* FIM Como tudo começou */
+
+/* footer */
+
+.logo-fla-footer img {
+    width: 20%;
+}
+
+
+
