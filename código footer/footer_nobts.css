@@ -1,0 +1,58 @@
+.container-footer{
+    margin: 0 77px;
+}
+
+.footer-content{
+    margin: 24px 0 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #dee2e6;
+}
+
+
+.footer-content p{
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    color: rgba(33, 37, 41, 0.75);
+}
+
+.nav-footer{
+    display: flex;
+    align-items: center;
+}
+.nav-footer ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-footer a{
+    text-decoration: none;
+    color: rgba(33, 37, 41, 0.75);
+}
+
+.nav-footer a:hover{
+    font-weight: bold;
+}
+
+#inicio{
+    font-weight: bold;
+}
+
+.logo-fla-footer{
+    width: 90px;
+}
+
+.logo-fla-footer img {
+    width: 100%;
+    transition: ease .5s all;
+}
+
+.logo-fla-footer img:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
