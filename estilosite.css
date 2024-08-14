@@ -1,0 +1,100 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    margin: auto;
+    text-align: center;
+}
+
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.wrapper-container{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2a2a2a;
+}
+
+.logo-flamengo-container{
+    width: 5%;
+}
+ .logo-flamengo-container img{
+    width: 100%;
+    transition: ease .5s all;
+}
+
+.navBar nav{
+    display: flex;
+    align-items: center;
+}
+.navBar ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: #fafafa;
+    display: inline-block;
+    background-color: transparent;
+    padding: 12px 16px; 
+    border-radius: 15px;
+    transition: ease .5s all;
+}
+
+.navBar a:hover{
+    background-color: rgb(209, 84, 84);
+}
+nav a.active{
+    background-color: rgb(209, 84, 84);
+}
+.navBar .logo-flamengo-container a:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.img-titulos {
+    border-radius: 50%; 
+    border: 5px solid black; 
+    padding: 5px;
+    background-color: red; 
+    box-sizing: border-box; 
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.arrumar{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.descricao {
+    max-width: 700px;
+}
+
