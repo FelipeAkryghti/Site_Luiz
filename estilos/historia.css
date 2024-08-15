@@ -81,7 +81,7 @@ nav a.active{
 .foto-flamengo {
     width: 99vw;
     height: 67vh;
-    background-image: url(images/flamengo_tri_libertadores_Agencia-Brasil.webp);
+    background-image: url(../images/flamengo_tri_libertadores_Agencia-Brasil.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
